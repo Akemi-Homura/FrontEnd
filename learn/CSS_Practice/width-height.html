@@ -1,0 +1,31 @@
+<html>
+
+    <head>
+        <style>
+            div {
+                border: 5px solid green;
+                width: 90px;
+                height: 90px;
+            }
+            
+            div.measurement {
+                border: 5px dashed red;
+                width: 100%;
+                height: 90px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            The total width and height of this element is 100px.
+        </div>
+        <hr />
+        <div class="measurement">
+            The total width of this element is <strong>100%</strong> and the total height is <strong>100px</strong>.
+        </div>
+    </body>
+
+</html>
